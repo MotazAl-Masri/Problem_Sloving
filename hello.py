@@ -1,7 +1,7 @@
 def hello():
     a = input()
     target = "hello"
-    j =0
+    j = 0
     for char in a:
         if char == target[j]:
             j += 1
