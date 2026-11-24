@@ -1,0 +1,12 @@
+def luck():
+    n = int(input())
+    lucky_numbers = [4, 7, 44, 47, 74, 77, 444, 447, 474, 477, 744, 747, 774, 777]
+    for num in lucky_numbers:
+        if n % num == 0:
+            print("YES")
+            return
+    print("NO")
+def main():
+    luck()
+if __name__ == "__main__":
+    main()
